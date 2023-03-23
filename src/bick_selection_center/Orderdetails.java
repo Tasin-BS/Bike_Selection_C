@@ -15,18 +15,20 @@ public class Orderdetails {
     
     public void Display(){
         System.out.println("---------Order Details---------");
-        System.out.println("Bick name              Color          cost");
-        System.out.println(name + "        " + color + "           " + cost + " Lakh");
+        System.out.println("Bick name    : " + name);
+        System.out.println("Color        : " + color);
+        System.out.println("Cost         : " + cost + " Taka");
         System.out.println("Additional Features :");
         System.out.println("Breaking Features :");
-        System.out.println(feature1 +"                            " + fea_cost +  "Thousand");
+        System.out.println(feature1 +"         : " + fea_cost +  "Taka");
         System.out.println("Engine Features :");
-        System.out.println(feature2 +"                            " + fea_cost +  "Thousand");
+        System.out.println(feature2 +"         : " + fea_cost +  "Taka");
         System.out.println("Bike Categories :");
-        System.out.println(feature3 +"                            " + fea_cost +  "Thousand");
-        System.out.println("Total Cost :                      " +(int) cost+fea_cost + " Taka Only");
+        System.out.println(feature3 +"         : " + fea_cost +  "Taka");
+        System.out.println("Total Cost    : " +((int) (cost+fea_cost)) + " Taka Only");
         System.out.println("");
         System.out.println("****Thank you For Visit us****");
+                
     }
     
     public int getfea_cost()

@@ -23,27 +23,27 @@ public class Bick_Selection_Center {
         if(num == 1)
         {
             order.setname("Yamaha MT 15 V2");
-            order.setcost((float) 3.60);
+            order.setcost(360000);
         }
         else if(num == 2)
         {
             order.setname("Royal Enfield Classic 350");
-            order.setcost((float) 4.50);
+            order.setcost(450000);
         }
         else if(num == 3)
         {
             order.setname("Royal Enfield Hunter 350");
-            order.setcost((float) 5.65);
+            order.setcost(565000);
         }
         else if(num == 4)
         {
             order.setname("Yamaha R15 V4");
-            order.setcost((float) 3.55);
+            order.setcost(355000);
         }
         else
         {
             order.setname("Bajaj Pulsar NS200");
-            order.setcost((float) 2.80);
+            order.setcost(280000);
         }
         System.out.println("Available Colors are :");
         System.out.println("1. Red  2.Black  3.white");
@@ -140,5 +140,4 @@ public class Bick_Selection_Center {
         }
         System.out.println("");
     }
-    
 }
